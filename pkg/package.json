@@ -1,0 +1,14 @@
+{
+  "name": "ma_lib_rust",
+  "version": "0.1.0",
+  "files": [
+    "ma_lib_rust_bg.wasm",
+    "ma_lib_rust.js",
+    "ma_lib_rust.d.ts"
+  ],
+  "module": "ma_lib_rust.js",
+  "types": "ma_lib_rust.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
